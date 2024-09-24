@@ -80,3 +80,10 @@ const Fan: Item = {
         I want ${this.quantity} of this item . My budget is around ${this.price}. `);
     },
 };
+
+Tablet.print();
+Cellphone.print();
+Laptop.print();
+Television.print();
+Fan.print();
+

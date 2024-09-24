@@ -1,8 +1,8 @@
-enum brand{
+enum Brand{
     SAMSUNG = "Samsung",
     SONY = "Sony",
     LG = "LG",
-    TCL = "TCL",
+    TCL = "TLC",
     PANASONIC = "Panasonic",
 }
 
@@ -10,9 +10,11 @@ type Item = {
     brand: string;
     color: string;
     quantity: number;
+    screen_size: string;
     price: number;
     print(): void;
 };
+
 
 const tablet: Item = {
     brand: "Samsung",
@@ -86,3 +88,4 @@ cellphone.print();
 laptop.print();
 television.print();
 fan.print();
+

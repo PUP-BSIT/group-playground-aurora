@@ -1,4 +1,4 @@
-enum BRAND{
+enum Brand{
     SAMSUNG = "Samsung",
     SONY = "Sony",
     LG = "LG",

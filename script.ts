@@ -1,8 +1,8 @@
-enum Brand{
+enum brand{
     SAMSUNG = "Samsung",
     SONY = "Sony",
     LG = "LG",
-    TCL = "TLC",
+    TCL = "TCL",
     PANASONIC = "Panasonic",
 }
 
@@ -14,7 +14,7 @@ type Item = {
     print(): void;
 };
 
-const Tablet: Item = {
+const tablet: Item = {
     brand: "Samsung",
     color: "Silver",
     quantity: 2,
@@ -27,7 +27,7 @@ const Tablet: Item = {
     },
 };
 
-const Cellphone: Item = {
+const cellphone: Item = {
     brand: "Sony",
     color: "Black",
     quantity: 5,
@@ -40,7 +40,7 @@ const Cellphone: Item = {
     },
 };
 
-const Laptop: Item = {
+const laptop: Item = {
     brand: "LG",
     color: "Grey",
     quantity: 7,
@@ -54,7 +54,7 @@ const Laptop: Item = {
 
 };
 
-const Television: Item = {
+const television: Item = {
     brand: "TCL",
     color: "Black",
     quantity: 4,
@@ -68,7 +68,7 @@ const Television: Item = {
         
 };
 
-const Fan: Item = {
+const fan: Item = {
     brand: "Panasonic",
     color: "White",
     quantity: 6,
@@ -81,8 +81,8 @@ const Fan: Item = {
     },
 };
 
-Tablet.print();
-Cellphone.print();
-Laptop.print();
-Television.print();
-Fan.print();
+tablet.print();
+cellphone.print();
+laptop.print();
+television.print();
+fan.print();

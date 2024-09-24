@@ -1,12 +1,12 @@
-var Brand;
-(function (Brand) {
-    Brand["SAMSUNG"] = "Samsung";
-    Brand["SONY"] = "Sony";
-    Brand["LG"] = "LG";
-    Brand["TCL"] = "TLC";
-    Brand["PANASONIC"] = "Panasonic";
-})(Brand || (Brand = {}));
-var Tablet = {
+var brand;
+(function (brand) {
+    brand["SAMSUNG"] = "Samsung";
+    brand["SONY"] = "Sony";
+    brand["LG"] = "LG";
+    brand["TCL"] = "TCL";
+    brand["PANASONIC"] = "Panasonic";
+})(brand || (brand = {}));
+var tablet = {
     brand: "Samsung",
     color: "Silver",
     quantity: 2,
@@ -15,7 +15,7 @@ var Tablet = {
         console.log("I wanna buy a ".concat(this.brand, ", since it is\n        a know local brand.\n        I want it to be ").concat(this.color, " color, since I like a cool and aesthetic look.\n        I want ").concat(this.quantity, " of this item . My budget is around ").concat(this.price, ". "));
     },
 };
-var Cellphone = {
+var cellphone = {
     brand: "Sony",
     color: "Black",
     quantity: 5,
@@ -24,7 +24,7 @@ var Cellphone = {
         console.log("I wanna buy a ".concat(this.brand, ", since it is\n        a know local brand.\n        I want it to be ").concat(this.color, " color, since I like a cool and aesthetic look.\n        I want ").concat(this.quantity, " of this item . My budget is around ").concat(this.price, ". "));
     },
 };
-var Laptop = {
+var laptop = {
     brand: "LG",
     color: "Grey",
     quantity: 7,
@@ -33,7 +33,7 @@ var Laptop = {
         console.log("I wanna buy a ".concat(this.brand, ", since it is\n        a know local brand.\n        I want it to be ").concat(this.color, " color, since I like a cool and aesthetic look.\n        I want ").concat(this.quantity, " of this item . My budget is around ").concat(this.price, ". "));
     },
 };
-var Television = {
+var television = {
     brand: "TCL",
     color: "Black",
     quantity: 4,
@@ -42,7 +42,7 @@ var Television = {
         console.log("I wanna buy a ".concat(this.brand, ", since it is\n        a know local brand.\n        I want it to be ").concat(this.color, " color, since I like a cool and aesthetic look.\n        I want ").concat(this.quantity, " of this item . My budget is around ").concat(this.price, ". "));
     },
 };
-var Fan = {
+var fan = {
     brand: "Panasonic",
     color: "White",
     quantity: 6,
@@ -51,8 +51,8 @@ var Fan = {
         console.log("I wanna buy a ".concat(this.brand, ", since it is\n        a know local brand.\n        I want it to be ").concat(this.color, " color, since I like a cool and aesthetic look.\n        I want ").concat(this.quantity, " of this item . My budget is around ").concat(this.price, ". "));
     },
 };
-Tablet.print();
-Cellphone.print();
-Laptop.print();
-Television.print();
-Fan.print();
+tablet.print();
+cellphone.print();
+laptop.print();
+television.print();
+fan.print();

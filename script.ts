@@ -9,35 +9,74 @@ enum BRAND{
 type Item = {
     brand: string;
     color: string;
-    screen_size: string;
+    quantity: number;
     price: number;
     print(): void;
 };
 
-const Television: Item = {
+const Tablet: Item = {
     brand: "Samsung",
     color: "Silver",
-    screen_size: "28",
+    quantity: 2,
     price: 35000,
     print: function (): void {
         console.log(`I wanna buy a ${this.brand}, since it is
         a know local brand.
         I want it to be ${this.color} color, since I like a cool and aesthetic look.
-        I also want it to be ${this.screen_size} inches since I wanna see and experience the whole thing.
-        My budget is around ${this.price}. `);
+        I want ${this.quantity} of this item . My budget is around ${this.price}. `);
     },
 };
 
-const OVEN: Item = {
+const Cellphone: Item = {
     brand: "Sony",
     color: "Black",
-    screen_size: "68",
+    quantity: 5,
     price: 40000,
     print: function (): void {
         console.log(`I wanna buy a ${this.brand}, since it is
         a know local brand.
         I want it to be ${this.color} color, since I like a cool and aesthetic look.
-        I also want it to be ${this.screen_size} inches since I wanna see and experience the whole thing.
-        My budget is around ${this.price}. `);
+        I want ${this.quantity} of this item . My budget is around ${this.price}. `);
+    },
+};
+
+const Laptop: Item = {
+    brand: "LG",
+    color: "Grey",
+    quantity: 7,
+    price: 40000,
+    print: function (): void {
+        console.log(`I wanna buy a ${this.brand}, since it is
+        a know local brand.
+        I want it to be ${this.color} color, since I like a cool and aesthetic look.
+        I want ${this.quantity} of this item . My budget is around ${this.price}. `);
+    },
+
+};
+
+const Television: Item = {
+    brand: "TCL",
+    color: "Black",
+    quantity: 4,
+    price: 40000,
+    print: function (): void {
+        console.log(`I wanna buy a ${this.brand}, since it is
+        a know local brand.
+        I want it to be ${this.color} color, since I like a cool and aesthetic look.
+        I want ${this.quantity} of this item . My budget is around ${this.price}. `);
+    },
+        
+};
+
+const Fan: Item = {
+    brand: "Panasonic",
+    color: "White",
+    quantity: 6,
+    price: 40000,
+    print: function (): void {
+        console.log(`I wanna buy a ${this.brand}, since it is
+        a know local brand.
+        I want it to be ${this.color} color, since I like a cool and aesthetic look.
+        I want ${this.quantity} of this item . My budget is around ${this.price}. `);
     },
 };

@@ -19,7 +19,7 @@ const Tablet: Item = {
     color: "Silver",
     quantity: 2,
     price: 35000,
-    print: function (): void {
+    print() {
         console.log(`I wanna buy a ${this.brand}, since it is
         a know local brand.
         I want it to be ${this.color} color, since I like a cool and aesthetic look.
@@ -32,7 +32,7 @@ const Cellphone: Item = {
     color: "Black",
     quantity: 5,
     price: 40000,
-    print: function (): void {
+    print() {
         console.log(`I wanna buy a ${this.brand}, since it is
         a know local brand.
         I want it to be ${this.color} color, since I like a cool and aesthetic look.
@@ -45,7 +45,7 @@ const Laptop: Item = {
     color: "Grey",
     quantity: 7,
     price: 40000,
-    print: function (): void {
+    print() {
         console.log(`I wanna buy a ${this.brand}, since it is
         a know local brand.
         I want it to be ${this.color} color, since I like a cool and aesthetic look.
@@ -59,7 +59,7 @@ const Television: Item = {
     color: "Black",
     quantity: 4,
     price: 40000,
-    print: function (): void {
+    print() {
         console.log(`I wanna buy a ${this.brand}, since it is
         a know local brand.
         I want it to be ${this.color} color, since I like a cool and aesthetic look.
@@ -73,7 +73,7 @@ const Fan: Item = {
     color: "White",
     quantity: 6,
     price: 40000,
-    print: function (): void {
+    print() {
         console.log(`I wanna buy a ${this.brand}, since it is
         a know local brand.
         I want it to be ${this.color} color, since I like a cool and aesthetic look.
@@ -86,4 +86,3 @@ Cellphone.print();
 Laptop.print();
 Television.print();
 Fan.print();
-
